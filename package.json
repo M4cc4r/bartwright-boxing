@@ -1,0 +1,20 @@
+{
+  "name": "bartwrights-boxing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bartwrights Boxing mobile web app and Capacitor wrapper",
+  "scripts": {
+    "web": "npx serve .",
+    "cap:sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios",
+    "build:android": "npx cap sync android",
+    "build:ios": "npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest",
+    "@capacitor/android": "latest",
+    "@capacitor/ios": "latest",
+    "@capacitor/cli": "latest"
+  }
+}

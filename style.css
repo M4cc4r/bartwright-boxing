@@ -21,3 +21,5 @@ html,body{min-height:100%;overscroll-behavior-y:none}
 button,a,input{touch-action:manipulation}
 .menu-card,.pill,.back,.rank-row,.champ-row,.power-row,.result,.champion-card{min-height:44px;-webkit-tap-highlight-color:transparent}
 @media(max-width:760px){body{padding-bottom:env(safe-area-inset-bottom)}.page{min-height:100dvh}.bottom-nav{padding-bottom:max(5px,env(safe-area-inset-bottom))}}
+
+.home-announcement{display:flex;flex-direction:column;gap:7px;align-items:center;max-width:620px;margin:30px auto 18px;padding:19px 16px;border-top:1px solid #51451f;border-bottom:1px solid #51451f;color:#aaa;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.home-announcement strong{color:var(--gold);font-size:14px;letter-spacing:.16em}.hof-card{min-height:300px}.hof-subtitle{margin:0 0 14px;color:#aaa;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.hof-details{display:grid;gap:9px;margin-top:20px;padding-top:15px;border-top:1px solid #393323;color:#bbb;font-size:12px}.hof-details strong{color:#eee}.hof-view{display:inline-block;margin-top:20px;color:var(--gold);font-size:10px;font-weight:900;letter-spacing:.12em}
